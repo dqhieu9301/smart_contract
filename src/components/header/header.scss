@@ -1,0 +1,16 @@
+.app-header {
+    background-color: #a6ddec; // Màu xanh dương React chính
+    color: white;
+    padding: 15px;
+    text-align: center;
+  
+    .user-info {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .user-name {
+      color: #b4a66b; // Màu vàng cho tên người dùng
+      font-size: 15px;
+    }
+  }

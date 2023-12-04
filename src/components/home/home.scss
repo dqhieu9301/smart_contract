@@ -1,0 +1,30 @@
+.home {
+    margin-top: 10px;
+    .feature {
+        width: 30%;
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        .item {
+            margin-top: 15px;
+            button {
+                width: 150px;
+            }
+
+            input {
+                margin-left: 10px;
+            }
+    
+            button:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .asset {
+        display: flex;
+        flex-direction: column;
+    }
+}
